@@ -155,7 +155,7 @@ export default {
       };
       myChart.setOption(option);
       window.addEventListener('resize',()=>{
-        myChart.resize();
+        this.myChart.resize();
       },true)
       // window.onresize = () => {
       //      myChart.resize();

@@ -220,7 +220,7 @@ require("echarts/lib/component/legend.js");
 
           this.myChart.setOption(option);
           window.addEventListener('resize',()=>{
-                myChart.resize();
+                this.myChart.resize();
           },true)
         }
 

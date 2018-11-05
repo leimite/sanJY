@@ -149,7 +149,7 @@ require("echarts/lib/component/legend/LegendView.js");
 
           this.myChart.setOption(option);
           window.addEventListener('resize',()=>{
-                myChart.resize();
+                this.myChart.resize();
           },true)
         }
 
