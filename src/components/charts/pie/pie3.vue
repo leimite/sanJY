@@ -92,13 +92,13 @@ require("echarts/lib/component/legend.js");
                     },
                     textStyle:{
                         rich: {
-                            a: {
-                                color: '#fff',
+                             a: {
+                                color: '#82939B',
                                 align: 'left',
                                 padding:[0,30,0,0],
                             },
                             b: {
-                                color: '#A3F0EB',
+                                color: '#427583',
                                 align: 'left',
                                 fontSize:16,
                                 padding:[0,10],
